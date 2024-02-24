@@ -5,25 +5,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          check my
-        </a>
-        <a className="btn btn-primary" href="#" role="button">
-          Link
-        </a>
+        <h1> Weather app </h1>
+        <form>
+          <input
+            type="search"
+            placeholder="enter a city"
+            className="form-control"
+          />
+          <input type="submit" value="Search" className="btn btn-primary" />
+        </form>
+        <p>Lisbon</p>
+        <ul>
+          <li>
+            <img className='icon' src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"></img>{" "}
+            today 23
+          </li>
+        </ul>
+
         <footer className="footer">
-          This project was coded by Vera and is 
+          This project was coded by Vera and is
           <a
-            href="https://github.com/andie7/New-React-weather-app"
+            href="https://github.com/Verahvilasboas/week4-react"
             target="_blank"
           >
             open sourced on Github
