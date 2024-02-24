@@ -17,8 +17,39 @@ function App() {
         <p>Lisbon</p>
         <ul>
           <li>
-            <img className='icon' src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"></img>{" "}
-            today 23
+            <img
+              className="icon"
+              src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
+            ></img>{" "}
+            today 23°c
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <img
+              className="icon"
+              src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
+            ></img>{" "}
+            su 23°c
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img
+              className="icon"
+              src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
+            ></img>{" "}
+            mo 23°c
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img
+              className="icon"
+              src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
+            ></img>{" "}
+            tu 23°c
           </li>
         </ul>
 
