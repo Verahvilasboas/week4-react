@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
             <img
               className="icon"
               src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
+       
             ></img>{" "}
             today 23°c
           </li>
@@ -30,6 +31,7 @@ function App() {
             <img
               className="icon"
               src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
+         
             ></img>{" "}
             su 23°c
           </li>
@@ -39,7 +41,8 @@ function App() {
             <img
               className="icon"
               src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
-            ></img>{" "}
+          alt="icon"
+            ></img>
             mo 23°c
           </li>
         </ul>
@@ -48,7 +51,8 @@ function App() {
             <img
               className="icon"
               src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png"
-            ></img>{" "}
+        target="_blank"
+            ></img>
             tu 23°c
           </li>
         </ul>
